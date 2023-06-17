@@ -21,3 +21,7 @@ name=test
 
 GET http://localhost:8080/test/list
 //Accept: application/json
+
+###
+GET http://localhost:8080/demo/list1
+//Accept: application/json
