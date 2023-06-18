@@ -347,3 +347,126 @@ Caused by: java.lang.ClassNotFoundException: com.jiawa.wiki.service.EbookService
 2023-06-18 21:13:22.517 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-06-18 21:13:22.518 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
 2023-06-18 21:13:22.519 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-06-18 21:15:56.925 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-18 21:15:56.926 INFO  com.alibaba.druid.pool.DruidDataSource            :1908 [32m                  [0;39m {dataSource-4} closed
+2023-06-18 21:15:57.053 INFO  com.jiawa.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_301 on DESKTOP-SIRIAEB with PID 12580 (E:\wiki\target\classes started by wang7 in E:\wiki)
+2023-06-18 21:15:57.053 INFO  com.jiawa.wiki.config.WikiApplication             :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2023-06-18 21:15:57.193 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2023-06-18 21:15:57.194 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-18 21:15:57.194 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-06-18 21:15:57.194 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-06-18 21:15:57.201 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-06-18 21:15:57.202 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 147 ms
+2023-06-18 21:15:57.210 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure          :56   [32m                  [0;39m Init DruidDataSource
+2023-06-18 21:15:57.218 INFO  com.alibaba.druid.pool.DruidDataSource            :971  [32m                  [0;39m {dataSource-5} inited
+2023-06-18 21:15:57.265 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-18 21:15:57.293 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2023-06-18 21:15:57.299 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2023-06-18 21:15:57.301 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-18 21:15:57.304 INFO  com.jiawa.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.27 seconds (JVM running for 760.466)
+2023-06-18 21:15:57.305 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-06-18 21:15:57.305 INFO  com.jiawa.wiki.config.WikiApplication             :21   [32m                  [0;39m 启动成功！！
+2023-06-18 21:15:57.306 INFO  com.jiawa.wiki.config.WikiApplication             :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8080
+2023-06-18 21:17:22.582 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-18 21:17:22.583 INFO  com.alibaba.druid.pool.DruidDataSource            :1908 [32m                  [0;39m {dataSource-5} closed
+2023-06-18 21:17:22.664 INFO  com.jiawa.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_301 on DESKTOP-SIRIAEB with PID 12580 (E:\wiki\target\classes started by wang7 in E:\wiki)
+2023-06-18 21:17:22.664 INFO  com.jiawa.wiki.config.WikiApplication             :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2023-06-18 21:17:22.800 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2023-06-18 21:17:22.801 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-18 21:17:22.801 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-06-18 21:17:22.801 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-06-18 21:17:22.808 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-06-18 21:17:22.808 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 142 ms
+2023-06-18 21:17:22.817 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure          :56   [32m                  [0;39m Init DruidDataSource
+2023-06-18 21:17:22.825 INFO  com.alibaba.druid.pool.DruidDataSource            :971  [32m                  [0;39m {dataSource-6} inited
+2023-06-18 21:17:22.871 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-18 21:17:22.906 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2023-06-18 21:17:22.912 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2023-06-18 21:17:22.914 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-18 21:17:22.918 INFO  com.jiawa.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.274 seconds (JVM running for 846.08)
+2023-06-18 21:17:22.919 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-06-18 21:17:22.919 INFO  com.jiawa.wiki.config.WikiApplication             :21   [32m                  [0;39m 启动成功！！
+2023-06-18 21:17:22.920 INFO  com.jiawa.wiki.config.WikiApplication             :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8080
+2023-06-18 21:18:39.160 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-18 21:18:39.160 INFO  com.alibaba.druid.pool.DruidDataSource            :1908 [32m                  [0;39m {dataSource-6} closed
+2023-06-18 21:18:39.286 INFO  com.jiawa.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_301 on DESKTOP-SIRIAEB with PID 12580 (E:\wiki\target\classes started by wang7 in E:\wiki)
+2023-06-18 21:18:39.286 INFO  com.jiawa.wiki.config.WikiApplication             :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2023-06-18 21:18:39.428 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2023-06-18 21:18:39.429 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-18 21:18:39.429 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-06-18 21:18:39.429 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-06-18 21:18:39.437 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-06-18 21:18:39.437 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 149 ms
+2023-06-18 21:18:39.445 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure          :56   [32m                  [0;39m Init DruidDataSource
+2023-06-18 21:18:39.453 INFO  com.alibaba.druid.pool.DruidDataSource            :971  [32m                  [0;39m {dataSource-7} inited
+2023-06-18 21:18:39.496 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-18 21:18:39.523 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2023-06-18 21:18:39.530 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2023-06-18 21:18:39.532 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-18 21:18:39.535 INFO  com.jiawa.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.267 seconds (JVM running for 922.697)
+2023-06-18 21:18:39.537 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-06-18 21:18:39.537 INFO  com.jiawa.wiki.config.WikiApplication             :21   [32m                  [0;39m 启动成功！！
+2023-06-18 21:18:39.537 INFO  com.jiawa.wiki.config.WikiApplication             :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8080
+2023-06-18 21:20:06.914 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-18 21:20:06.915 INFO  com.alibaba.druid.pool.DruidDataSource            :1908 [32m                  [0;39m {dataSource-7} closed
+2023-06-18 21:20:07.027 INFO  com.jiawa.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_301 on DESKTOP-SIRIAEB with PID 12580 (E:\wiki\target\classes started by wang7 in E:\wiki)
+2023-06-18 21:20:07.027 INFO  com.jiawa.wiki.config.WikiApplication             :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2023-06-18 21:20:07.180 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2023-06-18 21:20:07.181 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-18 21:20:07.181 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-06-18 21:20:07.182 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-06-18 21:20:07.189 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-06-18 21:20:07.190 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 158 ms
+2023-06-18 21:20:07.198 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure          :56   [32m                  [0;39m Init DruidDataSource
+2023-06-18 21:20:07.205 INFO  com.alibaba.druid.pool.DruidDataSource            :971  [32m                  [0;39m {dataSource-8} inited
+2023-06-18 21:20:07.250 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-18 21:20:07.276 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2023-06-18 21:20:07.282 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2023-06-18 21:20:07.284 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-18 21:20:07.287 INFO  com.jiawa.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.292 seconds (JVM running for 1010.449)
+2023-06-18 21:20:07.288 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-06-18 21:20:07.289 INFO  com.jiawa.wiki.config.WikiApplication             :21   [32m                  [0;39m 启动成功！！
+2023-06-18 21:20:07.290 INFO  com.jiawa.wiki.config.WikiApplication             :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8080
+2023-06-18 21:24:09.538 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-18 21:24:09.539 INFO  com.alibaba.druid.pool.DruidDataSource            :1908 [32m                  [0;39m {dataSource-8} closed
+2023-06-18 21:24:09.647 INFO  com.jiawa.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_301 on DESKTOP-SIRIAEB with PID 12580 (E:\wiki\target\classes started by wang7 in E:\wiki)
+2023-06-18 21:24:09.647 INFO  com.jiawa.wiki.config.WikiApplication             :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2023-06-18 21:24:09.782 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2023-06-18 21:24:09.783 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-18 21:24:09.783 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-06-18 21:24:09.783 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-06-18 21:24:09.790 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-06-18 21:24:09.790 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 141 ms
+2023-06-18 21:24:09.798 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure          :56   [32m                  [0;39m Init DruidDataSource
+2023-06-18 21:24:09.805 INFO  com.alibaba.druid.pool.DruidDataSource            :971  [32m                  [0;39m {dataSource-9} inited
+2023-06-18 21:24:09.849 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-18 21:24:09.876 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2023-06-18 21:24:09.882 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2023-06-18 21:24:09.884 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-18 21:24:09.888 INFO  com.jiawa.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.256 seconds (JVM running for 1253.049)
+2023-06-18 21:24:09.889 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-06-18 21:24:09.889 INFO  com.jiawa.wiki.config.WikiApplication             :21   [32m                  [0;39m 启动成功！！
+2023-06-18 21:24:09.889 INFO  com.jiawa.wiki.config.WikiApplication             :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8080
+2023-06-18 21:26:14.186 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-18 21:26:14.187 INFO  com.alibaba.druid.pool.DruidDataSource            :1908 [32m                  [0;39m {dataSource-9} closed
+2023-06-18 21:26:14.272 INFO  com.jiawa.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_301 on DESKTOP-SIRIAEB with PID 12580 (E:\wiki\target\classes started by wang7 in E:\wiki)
+2023-06-18 21:26:14.273 INFO  com.jiawa.wiki.config.WikiApplication             :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2023-06-18 21:26:14.399 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2023-06-18 21:26:14.399 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-18 21:26:14.399 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-06-18 21:26:14.400 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-06-18 21:26:14.407 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-06-18 21:26:14.407 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 133 ms
+2023-06-18 21:26:14.415 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure          :56   [32m                  [0;39m Init DruidDataSource
+2023-06-18 21:26:14.422 INFO  com.alibaba.druid.pool.DruidDataSource            :971  [32m                  [0;39m {dataSource-10} inited
+2023-06-18 21:26:14.463 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-18 21:26:14.490 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2023-06-18 21:26:14.497 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2023-06-18 21:26:14.499 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-18 21:26:14.502 INFO  com.jiawa.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 0.247 seconds (JVM running for 1377.664)
+2023-06-18 21:26:14.503 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-06-18 21:26:14.503 INFO  com.jiawa.wiki.config.WikiApplication             :21   [32m                  [0;39m 启动成功！！
+2023-06-18 21:26:14.503 INFO  com.jiawa.wiki.config.WikiApplication             :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8080
+2023-06-18 21:26:18.787 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-18 21:26:18.788 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-06-18 21:26:18.789 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms

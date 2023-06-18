@@ -19,7 +19,6 @@ public class EbookController {
     @Autowired
     private EbookService ebookService;
 
-
     @GetMapping("/list")
     public CommonResp list(EbookReq req){
         CommonResp<List<EbookResp>> res = new CommonResp<>();
@@ -27,5 +26,4 @@ public class EbookController {
         res.setContent(list);
         return res;
     }
-
 }
