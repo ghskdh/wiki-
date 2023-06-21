@@ -2,9 +2,8 @@
   <a-layout id="components-layout-demo-top-side-2">
     <TheHeader></TheHeader>
     <router-view/>
-    <a-layout-footer style="text-align: center">
-      jiawa电子书
-    </a-layout-footer>
+    <TheFooter></TheFooter>
+
 
   </a-layout>
 </template>
@@ -12,11 +11,12 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import TheHeader from "@/components/TheHeader.vue";
+import TheFooter from "@/components/TheFooter.vue";
 
 export default defineComponent({
   name: 'app',
   components:{
-    TheHeader,
+    TheHeader,TheFooter
   },
 
 });
